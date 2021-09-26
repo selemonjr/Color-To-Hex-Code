@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: url("../img/m.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    font-family: sans-serif;
+    place-items: center;
+}
+.container {
+    height: 40vh;
+    width:40%;
+    border-radius: 50px;
+    border-radius: 50px;
+    background: rgba( 255, 255, 255, 0.15 );
+backdrop-filter: blur( 9px );
+-webkit-backdrop-filter: blur( 9px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    text-align: center;
+    padding: 10px;
+}
+
+.title {
+    margin: 5% 0 5% 0;
+    color: #fff;
+}
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 40%;
+    padding: 2vh 2vh;
+    border-radius: 10px;
+    font-size: 20px;
+    border-style: dotted;
+    outline: none;
+    margin: 1vh;
+}
+.btns {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.to {
+    font-size: 20px;
+    font-weight: 900;
+    color: #000;
+}
+
+.text-box {
+    width: 30%;
+    height: 7vh;
+    background: white;
+    border-style:dotted;
+    text-align: center;
+    margin-left: 1%;
+    border-radius: 10px;
+}
+.text {
+    margin-top: 8%;
+    font-size: 20px;
+}
+.generate {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 4%;
+    border: none;
+    background: rgb(226, 67, 67);
+    color: #fff;
+    transition: 0.5s;
+}
+.generate:hover {
+    background: #ff0000;
+}
+.copy {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 4%;
+    border: none;
+    background: #90ee90;
+    color: #fff;
+    transition: 0.5s;
+}
+.copy:hover {
+    background: #008000;
+}
+
+@media(max-width:700px) {
+    .container {
+        width: 90%;
+    }
+}

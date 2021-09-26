@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Color To Hex Code",
+    "version": "1.0",
+    "description": "Convert Ordinary Colors to Hex Codes.",
+    "action": {
+        "default_popup":"./files/index.html"
+
+    }
+}
